@@ -1,17 +1,17 @@
 export const EDUCATION = [
   {
-    title: "Master of Technology",
-    university: "University 1",
-    duration: "2020 - 2022",
-    scoreType: "GPA",
-    score: "9.5",
+    title: "Master of Applied Computing",
+    university: "University of Windsor",
+    duration: "2024 - Present",
+    scoreType: "",
+    score: "-",
   },
   {
-    title: "Bachelor of Technology",
-    university: "University 1",
-    duration: "2016 - 2020",
+    title: "Bachelor of Computer Engineering",
+    university: "University of Mumbai",
+    duration: "2018 - 2022",
     scoreType: "GPA",
-    score: "8.5",
+    score: "8.56",
   },
 ];
 
@@ -33,9 +33,9 @@ export const SKILLS = [
 
 export const EXPERIENCE = [
   {
-    title: "SDE 2",
-    company: "Company 1",
-    duration: "2021 - Present",
+    title: "Software Engineer",
+    company: "Vermont Information Processing India",
+    duration: " Jul 2023 - Mar 2024",
     description:[
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
       "Nisi ut quod officiis doloremque.",
@@ -43,9 +43,9 @@ export const EXPERIENCE = [
     ]
   },
   {
-    title: "SDE 1",
-    company: "Company 2",
-    duration: "2018 - 2021",
+    title: "Trainee Software Engineer",
+    company: "Vistaar Technologies",
+    duration: "Jul 2022 - Jun 2023",
     description : [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque.",
       "Nisi ut quod officiis doloremque laborum repellat.",
@@ -53,9 +53,9 @@ export const EXPERIENCE = [
     ]
   },
   {
-    title: "Software Development Intern",
-    company: "Company 3",
-    duration: "2016 - 2018",
+    title: "Intern",
+    company: "Virtually Testing Foundation",
+    duration: "Jan 2021 - Mar 2021",
     description:[
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
       "Nisi ut quod officiis doloremque laborum repellat.",
@@ -67,53 +67,53 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    title: "Project 1",
+    title: "Movie DB",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
-    duration: "2021 - Present",
-    gitLink: "https://www.google.com",
-    projectLink: "https://www.google.com",
+      "Developed a ReactJS-based movie application using ViteJS and the TMDb API, enhancing user experience by providing easy access to comprehensive movie information.",
+    duration: "Apr 2023",
+    gitLink: "https://github.com/aaryen-dsouza/Movie-App",
+    // projectLink: "https://github.com/aaryen-dsouza/Movie-App",
     image: "projects/sunflower.jpeg",
   },
   {
-    title: "Project 2",
+    title: "Bus Pass Scanner",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
-    duration: "Sep 2020 - Jan 2021",
-    gitLink: "https://www.google.com",
+      "Collaborated as a team of 3 to design and build a cross-platform application designed for authentication of bus passes in college",
+    duration: "Mar 2022",
+    gitLink: "https://github.com/aaryen-dsouza/BusPass_Scanner",
     image: "projects/sunflower.jpeg",
   },
   {
-    title: "Project 3",
+    title: "Expenses Manager",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
-    duration: "Sep 2019 - Jan 2020",
-    gitLink: "https://www.google.com",
-    projectLink: "https://www.google.com",
+      "Created an expense management web app through React, leveraging state management to manage states and render lists dynamically, strengthening user interaction.",
+    duration: "Dec 2021",
+    gitLink: "https://github.com/aaryen-dsouza/Expenses-Manager",
+    // projectLink: "https://www.google.com",
     image: "projects/sunflower.jpeg",
   },
-  {
-    title: "Project 4",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
-    duration: "Sep 2018 - Jan 2019",
-    gitLink: "https://www.google.com",
-    image: "projects/sunflower.jpeg",
-  },
-  {
-    title: "Project 5",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
-    duration: "Sep 2017 - Jan 2018",
-    gitLink: "https://www.google.com",
-    image: "projects/sunflower.jpeg",
-  },
-  {
-    title: "Project 6",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    duration: "Sep 2016 - Jan 2017",
-    gitLink: "https://www.google.com",
-    projectLink: "https://www.google.com",
-    image: "projects/sunflower.jpeg",
-  },
+  // {
+  //   title: "Project 4",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
+  //   duration: "Sep 2018 - Jan 2019",
+  //   gitLink: "https://www.google.com",
+  //   image: "projects/sunflower.jpeg",
+  // },
+  // {
+  //   title: "Project 5",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
+  //   duration: "Sep 2017 - Jan 2018",
+  //   gitLink: "https://www.google.com",
+  //   image: "projects/sunflower.jpeg",
+  // },
+  // {
+  //   title: "Project 6",
+  //   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  //   duration: "Sep 2016 - Jan 2017",
+  //   gitLink: "https://www.google.com",
+  //   projectLink: "https://www.google.com",
+  //   image: "projects/sunflower.jpeg",
+  // },
 ];

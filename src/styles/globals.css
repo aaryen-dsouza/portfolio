@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Source+Code+Pro:wght@400;500;700&family=VT323&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,8 +12,11 @@ html {
 }
 
 .hero-radialbg {
-  background-image: radial-gradient(#91a117, #231f20 50%);
+  background-image: radial-gradient(#5b0db5, #250e40 50%);
+  /* background-image: radial-gradient(#91a117, #231f20 50%); */
 }
+/* 250e40 */
+/* 231f20 */
 
 .project-scrollbar {
   padding: 1em 0;
