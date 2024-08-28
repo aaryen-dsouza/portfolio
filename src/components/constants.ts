@@ -37,9 +37,11 @@ export const EXPERIENCE = [
     company: "Vermont Information Processing India",
     duration: " Jul 2023 - Mar 2024",
     description:[
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Nisi ut quod officiis doloremque.",
-      "Nisi ut quod officiis doloremque laborum repellat."
+      "Conducted data validations, promptly troubleshooting and resolving 95% of data quality issues within 24 hours, and provided detailed reports to stakeholders.",
+      "Investigated and resolved customer-reported issues, performing root cause analysis (RCA) by analyzing applications and logs, reducing issue resolution time by 40%.",
+      "Gathered requirements from customers and business analysts, ensuring a clear understanding of project needs and goals.",
+      "Documented data integration processes, ETL workflows, and system configurations,ensuring thorough knowledge transfer and decreasing onboarding time for new team members by 25%.",
+      "Initiated and created Bash scripts to automate routine tasks, optimize data workflows,reduce manual interventions by 50%, and enhance onboarding efficiency."
     ]
   },
   {
@@ -47,9 +49,9 @@ export const EXPERIENCE = [
     company: "Vistaar Technologies",
     duration: "Jul 2022 - Jun 2023",
     description : [
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque.",
-      "Nisi ut quod officiis doloremque laborum repellat.",
-      "Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium."
+      "Deployed and managed PSM with custom integration for Beverage Alcohol industry customers, ensuring seamless operation using proprietary technologies.",
+      "Collaborated with team to swiftly identify and fix SaaS platform bugs using Java and SQL, and communicated timely updates to customers.",
+      "Teamed up with Customer Success Manager to address data issues and ensure data quality and completeness by sending detailed reports to customers."
     ]
   },
   {
@@ -57,10 +59,9 @@ export const EXPERIENCE = [
     company: "Virtually Testing Foundation",
     duration: "Jan 2021 - Mar 2021",
     description:[
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
-      "Nisi ut quod officiis doloremque laborum repellat.",
-      "Nisi ut quod officiis doloremque.",
-      "Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium."
+      "Acquired fundamental knowledge of Kubernetes, virtualization, software-defined networking, cloud computing, and cybersecurity.",
+      "Gained hands-on experience with virtualization technologies, including VMware Horizon 7, vCenter, vSphere, NSX, and vSAN, through labs on the VMware HOL platform.",
+      "Demonstrated ability to understand and work within corporate codes and ethics, including practicing time management and accountability.",
     ]
   },
 ];
@@ -73,7 +74,7 @@ export const PROJECTS = [
     duration: "Apr 2023",
     gitLink: "https://github.com/aaryen-dsouza/Movie-App",
     // projectLink: "https://github.com/aaryen-dsouza/Movie-App",
-    image: "projects/sunflower.jpeg",
+    image: "projects/Movies.jpg",
   },
   {
     title: "Bus Pass Scanner",
@@ -81,7 +82,7 @@ export const PROJECTS = [
       "Collaborated as a team of 3 to design and build a cross-platform application designed for authentication of bus passes in college",
     duration: "Mar 2022",
     gitLink: "https://github.com/aaryen-dsouza/BusPass_Scanner",
-    image: "projects/sunflower.jpeg",
+    image: "projects/BusPass.jpg",
   },
   {
     title: "Expenses Manager",
@@ -90,7 +91,7 @@ export const PROJECTS = [
     duration: "Dec 2021",
     gitLink: "https://github.com/aaryen-dsouza/Expenses-Manager",
     // projectLink: "https://www.google.com",
-    image: "projects/sunflower.jpeg",
+    image: "projects/Expenses.jpg",
   },
   // {
   //   title: "Project 4",

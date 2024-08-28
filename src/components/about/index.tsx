@@ -10,11 +10,11 @@ const About = () => (
         <div>
           <div className='w-3/4 xl:w-4/6 ml-8 md:ml-16 lg:ml-12 xl:ml-28 border-4 border-primary-500 bg-secondary-500/20 p-8 xl:p-10 rounded-t-[80px] rounded-bl-[80px]'>
             <p className='text-sm xl:text-lg text-white-500 font-body text-justify'>
-              &ldquo;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quas magni sint aliquam ratione minus veniam reiciendis eos, ut placeat mollitia. Rem distinctio beatae quisquam deleniti vel accusantium rerum neque delectus hic at quo animi ex voluptatum atque vero consectetur porro quis, voluptatem magnam laudantium sed obcaecati! Asperiores, nam molestias?&rdquo;
+              &ldquo;I am a Graduate student pursuing a Master of Applied Computing at the University of Windsor, with a solid foundation in Computer Engineering. My expertise spans full-stack development, automation, and data validation, with hands-on experience in Java, JavaScript, React, Node.js, and Oracle SQL. I have successfully optimized data workflows, reduced issue resolution times, and developed responsive, user-focused applications. I am proficient in utilizing tools like Git, Figma, and VS Code to drive efficiency and innovation. With a strong commitment to continuous learning and an eye for scalable solutions, I am seeking internship opportunities to apply my technical skills and contribute to impactful projects.&rdquo;
             </p>
           </div>
-          <Image src='/profile.png' width={60} height={60} className='rounded-full hidden md:block border-2 border-primary-500 bg-black-400 relative left-[92%] lg:left-[90%] xl:left-[82%] -translate-x-full w-max' alt="" />
-          <Image src='/profile.png' width={40} height={40} className='rounded-full block md:hidden border-2 border-primary-500 bg-black-400 relative left-[85%]' alt="" />
+          <Image src='/profile1.png' width={60} height={60} className='rounded-full hidden md:block border-2 border-primary-500 bg-black-400 relative left-[92%] lg:left-[90%] xl:left-[82%] -translate-x-full w-max' alt="" />
+          <Image src='/profile1.png' width={40} height={40} className='rounded-full block md:hidden border-2 border-primary-500 bg-black-400 relative left-[85%]' alt="" />
         </div>
         <div className='lg:w-10/12 xl:w-9/12 ml-4 md:ml-10 xl:ml-24 p-2 mt-4'>
           <p className='text-secondary-500 text-3xl font-title w-full'>Education</p>

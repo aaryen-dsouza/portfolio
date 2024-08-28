@@ -26,7 +26,7 @@ const Hero = () => (
         </div>
       </div>
       <div className='min-h-screen flex flex-col justify-center text-center'>
-        <p className='font-title text-8xl xsm:text-5xl md:text-8xl text-primary-500 tracking-wide'>Aaryen Dsouza</p>
+        <p className='font-title text-8xl xsm:text-5xl md:text-8xl text-primary-500 tracking-wide'>Aaryen DSouza</p>
         <p className='font-body text-xl text-white-500 mt-4 xsm:hidden md:block'>Graduate Student. Software Engineer.</p>
         <p className='font-body text-lg text-white-500 mt-4 md:hidden'>Lorem ipsum.</p>
         <p className='font-body text-lg text-white-500 md:hidden'>Bloop Floof.</p>
