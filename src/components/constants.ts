@@ -74,7 +74,7 @@ export const PROJECTS = [
     duration: "Apr 2023",
     gitLink: "https://github.com/aaryen-dsouza/Movie-App",
     // projectLink: "https://github.com/aaryen-dsouza/Movie-App",
-    image: "/portfolio/projects/Movies.jpg",
+    image: "projects/Movies.jpg",
   },
   {
     title: "Bus Pass Scanner",
@@ -82,7 +82,7 @@ export const PROJECTS = [
       "Collaborated as a team of 3 to design and build a cross-platform application designed for authentication of bus passes in college",
     duration: "Mar 2022",
     gitLink: "https://github.com/aaryen-dsouza/BusPass_Scanner",
-    image: "/portfolio/projects/BusPass.jpg",
+    image: "projects/BusPass.jpg",
   },
   {
     title: "Expenses Manager",
@@ -91,7 +91,7 @@ export const PROJECTS = [
     duration: "Dec 2021",
     gitLink: "https://github.com/aaryen-dsouza/Expenses-Manager",
     // projectLink: "https://www.google.com",
-    image: "/portfolio/projects/Expenses.jpg",
+    image: "projects/Expenses.jpg",
   },
   // {
   //   title: "Project 4",
