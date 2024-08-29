@@ -5,7 +5,7 @@ import { FaFileAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => (
   <div className='min-h-screen relative' id="home">
-    <Image src='/hero-bg.jpeg' className='z-0 absolute opacity-5 object-cover object-center' fill alt="" />
+    <Image src='/portfolio/hero-bg.jpeg' className='z-0 absolute opacity-5 object-cover object-center' fill alt="" />
     {/* <div className='max-w-[1440px] 2xl:m-auto'> */}
       <div className='fixed w-full flex flex-row justify-between xsm:px-4 md:px-6 xsm:py-1 md:py-2 z-10 bg-black-300 bg-opacity-50 backdrop-blur'>
         <div>
@@ -19,7 +19,7 @@ const Hero = () => (
           <a href='#contact' className='text-secondary-500 xsm:text-lg md:text-xl font-title'>Contact</a>
         </div>
         <div className='w-1/12 flex justify-between items-center'>
-          <a href='/resume/Aaryen.pdf' download><FaFileAlt className='text-primary-500 xsm:text-lg md:text-2xl' /></a>
+          <a href='/portfolio/resume/Aaryen.pdf' download><FaFileAlt className='text-primary-500 xsm:text-lg md:text-2xl' /></a>
           <a href='https://github.com/aaryen-dsouza'><FaGithub className='text-primary-500 xsm:text-lg md:text-2xl' /></a>
           <a href='https://www.linkedin.com/in/aaryendsouza/'><FaLinkedinIn className='text-primary-500 xsm:text-lg md:text-2xl' /></a>
           <a href='mailto:dsouza96@uwindsor.ca'><MdEmail className='text-primary-500 xsm:text-lg md:text-2xl' /></a>

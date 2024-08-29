@@ -13,8 +13,8 @@ const About = () => (
               &ldquo;I am a Graduate student pursuing a Master of Applied Computing at the University of Windsor, with a solid foundation in Computer Engineering. My expertise spans full-stack development, automation, and data validation, with hands-on experience in Java, JavaScript, React, Node.js, and Oracle SQL. I have successfully optimized data workflows, reduced issue resolution times, and developed responsive, user-focused applications. I am proficient in utilizing tools like Git, Figma, and VS Code to drive efficiency and innovation. With a strong commitment to continuous learning and an eye for scalable solutions, I am seeking internship opportunities to apply my technical skills and contribute to impactful projects.&rdquo;
             </p>
           </div>
-          <Image src='/profile1.png' width={60} height={60} className='rounded-full hidden md:block border-2 border-primary-500 bg-black-400 relative left-[92%] lg:left-[90%] xl:left-[82%] -translate-x-full w-max' alt="" />
-          <Image src='/profile1.png' width={40} height={40} className='rounded-full block md:hidden border-2 border-primary-500 bg-black-400 relative left-[85%]' alt="" />
+          <Image src='/portfolio/profile1.png' width={60} height={60} className='rounded-full hidden md:block border-2 border-primary-500 bg-black-400 relative left-[92%] lg:left-[90%] xl:left-[82%] -translate-x-full w-max' alt="" />
+          <Image src='/portfolio/profile1.png' width={40} height={40} className='rounded-full block md:hidden border-2 border-primary-500 bg-black-400 relative left-[85%]' alt="" />
         </div>
         <div className='lg:w-10/12 xl:w-9/12 ml-4 md:ml-10 xl:ml-24 p-2 mt-4'>
           <p className='text-secondary-500 text-3xl font-title w-full'>Education</p>

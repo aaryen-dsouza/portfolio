@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "deploy": "gh-pages -d out"
@@ -17,10 +17,9 @@
     "aaryen-portfolio": "file:",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
-    "next": "13.2.3",
-    "parth-portfolio": "file:",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^14.2.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.8.0",
     "typescript": "4.9.5"
   },
