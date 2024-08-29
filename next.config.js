@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true, // Disable Next.js default image optimization for static export
   },
   basePath: "/portfolio",
-  assetPrefix: "/portfolio",
+  assetPrefix: "/portfolio/",
 };
 
 module.exports = nextConfig;
