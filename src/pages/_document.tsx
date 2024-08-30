@@ -12,6 +12,8 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap"
           rel="stylesheet"
         />
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" />
+
       <body>
         <Main />
         <NextScript />
