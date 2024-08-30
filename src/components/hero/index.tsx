@@ -5,7 +5,6 @@ import { FaFileAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   const [isBurgerClicked, setIsBurgerClicked] = useState(false);
-  const [navLink, setNavLink] = useState(false);
 
   const handleToggle = (e: any) => {
     setIsBurgerClicked(!isBurgerClicked);
@@ -32,7 +31,7 @@ const Hero = () => {
           {/* <div className='w-1/3 flex flex-row justify-evenly ml-20'> */}
           <div
             className={`duration-500 md:static absolute md:min-h-fit min-h-[40vh] max-md:bg-black-300 left-0 top-[${
-              isBurgerClicked ? "100" : "-1300"
+              isBurgerClicked ? "100" : "-1200"
             }%] md:w-auto w-full flex items-center px-5`}
           >
             <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
