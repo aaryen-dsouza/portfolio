@@ -20,7 +20,7 @@ const Hero = () => {
         alt=""
       />
       <header>
-        <nav className="fixed flex justify-between items-center w-[100%] xsm:px-4 md:px-6 xsm:py-1 md:py-2 bg-black-300 mx-auto z-10 bg-opacity-50 backdrop-blur relative">
+        <nav className="fixed flex justify-between items-center w-[100%] xsm:px-4 md:px-6 xsm:py-1 md:py-2 bg-black-300 mx-auto z-10 bg-opacity-50 backdrop-blur">
           <div>
             <p className="text-primary-500 xsm:text-xl md:text-3xl font-logo">
               AD
@@ -80,7 +80,7 @@ const Hero = () => {
             </ul>
           </div>
           <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-6">
               <a href="resume/Aaryen.pdf" download>
                 <FaFileAlt className="text-primary-500 xsm:text-lg md:text-2xl" />
               </a>
