@@ -27,8 +27,8 @@ const Hero = () => {
             </p>
           </div>
           <div
-            className={`duration-500 md:static absolute md:min-h-fit min-h-[40vh] max-md:bg-black-300 left-0 ${
-              isBurgerClicked ? "top-[100%]" : "hidden"
+            className={`duration-500 md:static absolute md:min-h-fit min-h-[40vh] max-md:hidden max-md:bg-black-300 left-0 ${
+              isBurgerClicked ? "top-[100%]" : ""
             } md:w-auto w-full flex items-center px-5`}
           >
             <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
