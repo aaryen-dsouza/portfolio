@@ -22,7 +22,7 @@ const Hero = () => {
       {/* <div className='max-w-[1440px] 2xl:m-auto'> */}
       {/* <nav className='fixed w-full flex justify-between items-center w-[92%] mx-auto xsm:px-4 md:px-6 xsm:py-1 md:py-2 z-10 bg-black-300 bg-opacity-50 backdrop-blur'> */}
       <header>
-        <nav className="fixed flex justify-between items-center w-[100%] xsm:px-4 md:px-6 xsm:py-1 md:py-2 bg-black-300 mx-auto z-10 bg-opacity-50 backdrop-blur">
+        <nav className="fixed flex justify-between items-center w-[100%] xsm:px-4 md:px-6 xsm:py-1 md:py-2 bg-black-300 mx-auto z-10 bg-opacity-50 backdrop-blur relative">
           <div>
             <p className="text-primary-500 xsm:text-xl md:text-3xl font-logo">
               AD
