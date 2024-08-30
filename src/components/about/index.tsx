@@ -20,12 +20,12 @@ const About = () => (
           <p className='text-secondary-500 text-3xl font-title w-full'>Education</p>
           {
             EDUCATION.map((education, index) => (
-              <div key={index} className='flex justify-between items-center pt-4 pr-6 md:pr-12'>
+              <div key={index} className='flex flex-col sm:flex-row justify-between items-start sm:items-center pt-4 pr-6 md:pr-12'>
                 <div>
                   <p className='text-white-500 font-body text-md'>{education.title}</p>
-                  <p className='text-white-500 font-body text-sm'>{education.university} &#x2022; {education.duration}</p>
+                  <p className='text-white-500 font-body text-sm'>{education.university} <span className='hidden sm:inline'>&#x2022;</span><span className='block sm:inline'> {education.duration}</span></p>
                 </div>
-                <p className='text-white-500 text-xs'>{education.scoreType} - {education.score}</p>
+                <p className='text-white-500 text-xs mt-2 sm:mt-0'>{education.scoreType} - {education.score}</p>
               </div>
             ))
           }

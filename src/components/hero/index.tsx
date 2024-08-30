@@ -116,7 +116,12 @@ const Hero = () => {
         <p className="font-body text-lg text-white-500 md:hidden">
           Software Engineer.
         </p>
-        <p className="font-body xsm:text-lg md:text-xl text-white-500"></p>
+        <p className="font-body text-xl text-white-500 xsm:hidden md:block">
+          Data Engineer.
+        </p>
+        <p className="font-body text-lg text-white-500 md:hidden">
+          Data Engineer.
+        </p>
       </div>
       <div className="absolute bottom-0 pb-2 w-full max-w-[1440px] flex flex-row justify-center">
         <MdKeyboardDoubleArrowDown className="text-primary-500 text-3xl opacity-30 animate-bounce" />

@@ -3,8 +3,8 @@ export const EDUCATION = [
     title: "Master of Applied Computing",
     university: "University of Windsor",
     duration: "2024 - Present",
-    scoreType: "",
-    score: "-",
+    scoreType: "GPA",
+    score: "NA",
   },
   {
     title: "Bachelor of Computer Engineering",
@@ -16,19 +16,22 @@ export const EDUCATION = [
 ];
 
 export const SKILLS = [
+  "Java",
   "HTML",
   "CSS",
+  "Bootstrap",
+  "Tailwind",
+  "Selenium",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Sass",
   "Node.js",
-  "Nest.js",
   "Express.js",
   "MongoDB",
   "MySQL",
+  "OracleSQL",
   "Git",
+  "Bash"
 ];
 
 export const EXPERIENCE = [

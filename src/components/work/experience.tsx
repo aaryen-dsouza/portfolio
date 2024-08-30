@@ -11,7 +11,7 @@ const Experience = () => (
             <div key={index}>
               <div className='p-3 bg-black-400/20 mx-4 rounded shadow-md'>
                 <p className='font-title text-primary-500 text-left text-2xl'>{work.title}</p>
-                <p className='font-body text-secondary-500 text-left text-sm'>{work.company} &#x2022; {work.duration}</p>
+                <p className='font-body text-secondary-500 text-left text-sm'>{work.company} <span className='hidden sm:inline'>&#x2022;</span><span className='block sm:inline'>{work.duration}</span></p>
                 <ul className='list-disc list-outside mt-2 ml-4'>
                   {
                     work.description.map((desc, index) => (
