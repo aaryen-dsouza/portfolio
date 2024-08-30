@@ -19,8 +19,6 @@ const Hero = () => {
         fill
         alt=""
       />
-      {/* <div className='max-w-[1440px] 2xl:m-auto'> */}
-      {/* <nav className='fixed w-full flex justify-between items-center w-[92%] mx-auto xsm:px-4 md:px-6 xsm:py-1 md:py-2 z-10 bg-black-300 bg-opacity-50 backdrop-blur'> */}
       <header>
         <nav className="fixed flex justify-between items-center w-[100%] xsm:px-4 md:px-6 xsm:py-1 md:py-2 bg-black-300 mx-auto z-10 bg-opacity-50 backdrop-blur relative">
           <div>
@@ -28,7 +26,6 @@ const Hero = () => {
               AD
             </p>
           </div>
-          {/* <div className='w-1/3 flex flex-row justify-evenly ml-20'> */}
           <div
             className={`duration-500 md:static absolute md:min-h-fit min-h-[40vh] max-md:bg-black-300 left-0 ${
               isBurgerClicked ? "top-[100%]" : "hidden"
@@ -82,7 +79,6 @@ const Hero = () => {
               </li>
             </ul>
           </div>
-          {/* <div className="w-1/12 flex justify-between items-center"> */}
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <a href="resume/Aaryen.pdf" download>
@@ -125,7 +121,6 @@ const Hero = () => {
       <div className="absolute bottom-0 pb-2 w-full max-w-[1440px] flex flex-row justify-center">
         <MdKeyboardDoubleArrowDown className="text-primary-500 text-3xl opacity-30 animate-bounce" />
       </div>
-      {/* </div> */}
     </div>
   );
 };

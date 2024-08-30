@@ -73,7 +73,6 @@ export const PROJECTS = [
       "Developed a ReactJS-based movie application using ViteJS and the TMDb API, enhancing user experience by providing easy access to comprehensive movie information.",
     duration: "Apr 2023",
     gitLink: "https://github.com/aaryen-dsouza/Movie-App",
-    // projectLink: "https://github.com/aaryen-dsouza/Movie-App",
     image: "projects/Movies.jpg",
   },
   {
@@ -90,7 +89,6 @@ export const PROJECTS = [
       "Created an expense management web app through React, leveraging state management to manage states and render lists dynamically, strengthening user interaction.",
     duration: "Dec 2021",
     gitLink: "https://github.com/aaryen-dsouza/Expenses-Manager",
-    // projectLink: "https://www.google.com",
     image: "projects/Expenses.jpg",
   },
   // {
