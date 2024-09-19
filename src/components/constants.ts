@@ -71,6 +71,15 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
+    title: "Chat App",
+    description:
+      "A fully-featured real-time chat application built using React, TypeScript, Firebase, and Firestore, offering a modern and user-friendly interface with dynamic messaging capabilities. The app supports key features such as user authentication, chat history management, message editing and deletion, and real-time status updates.",
+    duration: "Sep 2024",
+    gitLink: "https://github.com/aaryen-dsouza/chat-app",
+    projectLink: "https://aaryen-chat-app-fb.vercel.app/",
+    image: "projects/ChatApp.jpg",
+  },
+  {
     title: "Movie DB",
     description:
       "Developed a ReactJS-based movie application using ViteJS and the TMDb API, enhancing user experience by providing easy access to comprehensive movie information.",
