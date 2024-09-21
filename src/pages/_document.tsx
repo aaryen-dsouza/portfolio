@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <title>Aaryen Portfolio</title>
+      <link rel="icon" href="/favicon.png" type="image/png" />
       <link
           href="https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Source+Code+Pro:wght@400;500;700&family=VT323&display=swap"
           rel="stylesheet"
