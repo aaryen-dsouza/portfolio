@@ -108,19 +108,19 @@ const Hero = () => {
           Aaryen DSouza
         </p>
         <p className="font-body text-xl text-white-500 mt-4 xsm:hidden md:block">
-          Graduate Student. Software Engineer.
+          Software Engineer. Data Engineer.
         </p>
         <p className="font-body text-lg text-white-500 mt-4 md:hidden">
-          Graduate Student.
-        </p>
-        <p className="font-body text-lg text-white-500 md:hidden">
           Software Engineer.
         </p>
-        <p className="font-body text-xl text-white-500 xsm:hidden md:block">
-          Data Engineer.
-        </p>
         <p className="font-body text-lg text-white-500 md:hidden">
           Data Engineer.
+        </p>
+        <p className="font-body text-xl text-white-500 xsm:hidden md:block">
+          Data Analyst.
+        </p>
+        <p className="font-body text-lg text-white-500 md:hidden">
+          Data Analyst.
         </p>
       </div>
       <div className="absolute bottom-0 pb-2 w-full max-w-[1440px] flex flex-row justify-center">
