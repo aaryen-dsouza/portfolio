@@ -17,24 +17,65 @@ export const EDUCATION = [
 
 export const SKILLS = [
   "Java",
+  "Python",
+  "C",
+  "JavaScript",
+  "TypeScript",
+  "SQL",
   "HTML",
   "CSS",
   "Bootstrap",
   "Tailwind",
+  "Material-UI",
   "Selenium",
-  "JavaScript",
-  "TypeScript",
   "React",
+  "Redux",
   "Node.js",
   "Express.js",
+  "Django",
   "MongoDB",
   "MySQL",
+  "PostgreSQL",
   "OracleSQL",
+  "PL/SQL",
+  "dbt",
+  "PySpark",
+  "Pandas",
+  "NumPy",
+  "Matplotlib",
+  "Seaborn",
+  "Tableau",
+  "Power BI",
   "Git",
-  "Bash"
+  "GitHub",
+  "Bash",
+  "Shell Scripting",
+  "Linux/Unix",
+  "Windows",
+  "Jupyter Notebook",
+  "Google Colab",
+  "VS Code",
+  "DataGrip",
+  "PyCharm",
+  "IntelliJ IDEA",
+  "Postman",
+  "Jira",
+  "Microsoft Excel",
+  "Google Sheets",
+  "WordPress"
 ];
 
 export const EXPERIENCE = [
+  {
+    title: "Data Analyst Intern",
+    company: "Office of Institutional Planning and Analysis, University of Windsor",
+    duration: " May 2025 - Present",
+    description:[
+      "Designed and implemented data models and dashboards in Power BI and SQL, enabling 5+ university departments to access self-service insights on enrolment, retention, and performance metrics.", 
+      "Performed data extraction, transformation, and quality assurance on large university datasets (100K+ records) using SQL and Python, ensuring accuracy and consistency in reporting.", 
+      "Authored comprehensive reporting documentation and query guidelines, cutting onboarding time for new analysts by 25% and ensuring reproducibility across the OIA team."
+    ]
+  },
   {
     title: "Software Engineer",
     company: "Vermont Information Processing India",
