@@ -3,8 +3,8 @@ export const EDUCATION = [
     title: "Master of Applied Computing",
     university: "University of Windsor",
     duration: "2024 - Present",
-    scoreType: "GPA",
-    score: "NA",
+    scoreType: "Cumulative Average",
+    score: "88.44%",
   },
   {
     title: "Bachelor of Computer Engineering",
@@ -68,7 +68,7 @@ export const SKILLS = [
 export const EXPERIENCE = [
   {
     title: "Data Analyst Intern",
-    company: "Office of Institutional Planning and Analysis, University of Windsor",
+    company: "Office of Institutional Analysis, University of Windsor",
     duration: " May 2025 - Present",
     description:[
       "Designed and implemented data models and dashboards in Power BI and SQL, enabling 5+ university departments to access self-service insights on enrolment, retention, and performance metrics.", 
