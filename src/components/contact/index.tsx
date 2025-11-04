@@ -12,7 +12,7 @@ const Contact = () => {
       <div className='mt-8 relative top-1/2'>
         <a href="https://github.com/aaryen-dsouza" className='flex justify-center items-center mt-4 text-white-500 font-body text-xl' target="_blank"><FaGithub className='mr-4' /> Github</a>
         <a href="https://www.linkedin.com/in/aaryendsouza/" className='flex justify-center items-center mt-4 text-white-500 font-body text-xl' target="_blank"><FaLinkedinIn className='mr-4' /> LinkedIn</a>
-        <a href="" className='flex justify-center items-center mt-4 text-white-500 font-body text-xl'><FaTwitter className='mr-4' /> Twitter</a>
+        {/* <a href="" className='flex justify-center items-center mt-4 text-white-500 font-body text-xl'><FaTwitter className='mr-4' /> Twitter</a> */}
         <p className='mt-8 text-secondary-500 font-body'>------- Or send an email on -------</p>
         <a href="mailto:dcc.aaryen@gmail.com" className='flex justify-center items-center mt-8 text-white-500 font-body text-xl'><MdMail className='mr-4' />dsouza96@uwindsor.ca</a>
         <div className='mt-16 flex items-center justify-center'>
